@@ -161,15 +161,15 @@ footer > .bgFooter > h3{
         width: 44.55px;
         height: 40px;
     }
-    header > .containerHeader > .bgNav > nav > ul{
+    header > .containerHeader > .bgNav > nav > .opcoes{
         width: 420px;
         height: 55px;
         border-radius: 10px;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div{
         column-gap: 8px;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li > img{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div > img{
         width: 30px;
         height: 30px;
     }
@@ -203,19 +203,19 @@ footer > .bgFooter > h3{
         width: 40px;
         height: 36px;
     }
-    header > .containerHeader > .bgNav > nav > ul{
+    header > .containerHeader > .bgNav > nav > .opcoes{
         width: 330px;
         height: 50px;
         border-radius: 8px;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div{
         column-gap: 4px;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li > img{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div > img{
         width: 25px;
         height: 25px;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li > h2{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div > h2{
         font-size: 18px;
     }
     footer > .bgFooter{
@@ -250,18 +250,18 @@ footer > .bgFooter > h3{
         width: 40px;
         height: 36px;
     }
-    header > .containerHeader > .bgNav > nav > ul{
+    header > .containerHeader > .bgNav > nav > .opcoes{
         width: 260px;
         height: 50px;
         border-radius: 4px;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div{
         column-gap: 4px;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li > img{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div > img{
         display: none;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li > h2{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div > h2{
         font-size: 18px;
     }
     footer > .bgFooter{
@@ -296,18 +296,18 @@ footer > .bgFooter > h3{
         width: 35px;
         height: 31px;
     }
-    header > .containerHeader > .bgNav > nav > ul{
+    header > .containerHeader > .bgNav > nav > .opcoes{
         width: 230px;
         height: 45px;
         border-radius: 4px;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div{
         column-gap: 0;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li > img{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div > img{
         display: none;
     }
-    header > .containerHeader > .bgNav > nav > ul > a > li > h2{
+    header > .containerHeader > .bgNav > nav > .opcoes > a > div > h2{
         font-size: 16px;
     }
     footer > .bgFooter{
