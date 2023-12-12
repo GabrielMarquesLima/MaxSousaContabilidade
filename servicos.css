@@ -1,0 +1,265 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > .titulo{
+    width: auto;
+    height: auto;
+    background-color: #1c1b33;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: -25px;
+}
+main > .titulo > h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 20px;
+}
+main > .containerCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90vw;
+    column-gap: 100px;
+    row-gap: 80px;
+    margin: 80px 0 40px 0;
+}
+main > .containerCards > .containerCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > .containerCards > .containerCard > .bgIcone{
+    width: 54px;
+    height: 54px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1B33;
+    margin: 0 0 -40px -340px;
+    position: relative;
+}
+main > .containerCards > .containerCard > .bgIcone > picture > img{
+    width: 37px;
+    height: 37px;
+}
+main > .containerCards > .containerCard > .card{
+    width: 366px;
+    height: 431px;
+    background-color: #1C1B33;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#departamentoPessoal-icone{
+     width: 34px;
+     height: 42px;             
+}
+main > .containerCards > .containerCard > .card > picture > img{
+    width: 358px;
+    height: 358px;
+    margin: 5px 0 20px 0;
+}
+main > .containerCards > .containerCard > .card > h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 2.493px;
+}
+main > .containerCards > .containerCard > h3{
+    width: 330px;
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 21.818px;
+    font-weight: 400;
+    letter-spacing: 2.182px;
+    margin-top: 30px;
+}
+/* @media (min-width: 1200px) and (max-width: 1399px) {
+
+} */
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .titulo > h1{
+        font-size: 28px;
+    }
+    main > .containerCards > .containerCard > .bgIcone{
+        width: 49px;
+        height: 49px;
+        margin: 0 0 -35px -310px;
+    }
+    main > .containerCards > .containerCard > .bgIcone > picture > img{
+        width: 33px;
+        height: 33px;
+    }
+    #departamentoPessoal-icone{
+        width: 30px;
+        height: 37px;             
+   }
+   main > .containerCards > .containerCard > .card{
+    width: 329px;
+    height: 388px;
+    }
+    main > .containerCards > .containerCard > .card > picture > img{
+        width: 322px;
+        height: 322px;
+        margin: 5px 0 16px 0;
+    }
+    main > .containerCards > .containerCard > .card > h2{
+        font-size: 21px;
+    }
+    main > .containerCards > .containerCard > h3{
+        width: 300px;
+        font-size: 20px;
+    }
+}
+/* @media (min-width: 768px) and (max-width: 991px){
+
+} */
+@media (min-width: 576px) and (max-width: 767px){
+    main > .titulo > h1{
+        font-size: 24px;
+    }
+    main > .containerCards > .containerCard > .bgIcone{
+        width: 49px;
+        height: 49px;
+        margin: 0 0 -35px -310px;
+    }
+    main > .containerCards > .containerCard > .bgIcone > picture > img{
+        width: 33px;
+        height: 33px;
+    }
+    #departamentoPessoal-icone{
+        width: 30px;
+        height: 37px;             
+   }
+   main > .containerCards > .containerCard > .card{
+    width: 329px;
+    height: 388px;
+    }
+    main > .containerCards > .containerCard > .card > picture > img{
+        width: 322px;
+        height: 322px;
+        margin: 5px 0 16px 0;
+    }
+    main > .containerCards > .containerCard > .card > h2{
+        font-size: 21px;
+    }
+    main > .containerCards > .containerCard > h3{
+        width: 300px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 400px) and (max-width: 575px){
+    main > .titulo > h1{
+        font-size: 24px;
+        margin: 8px 5px 8px 5px;
+    }
+    main > .containerCards > .containerCard > .bgIcone{
+        width: 49px;
+        height: 49px;
+        margin: 0 0 -35px -310px;
+    }
+    main > .containerCards > .containerCard > .bgIcone > picture > img{
+        width: 33px;
+        height: 33px;
+    }
+    #departamentoPessoal-icone{
+        width: 30px;
+        height: 37px;             
+   }
+   main > .containerCards > .containerCard > .card{
+    width: 329px;
+    height: 388px;
+    }
+    main > .containerCards > .containerCard > .card > picture > img{
+        width: 322px;
+        height: 322px;
+        margin: 5px 0 16px 0;
+    }
+    main > .containerCards > .containerCard > .card > h2{
+        font-size: 21px;
+    }
+    main > .containerCards > .containerCard > h3{
+        width: 300px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 399px){
+    main > .titulo > h1{
+        font-size: 24px;
+        margin: 8px 5px 8px 5px;
+    }
+    main > .containerCards > .containerCard > .bgIcone{
+        width: 44px;
+        height: 44px;
+        margin: 0 0 -35px -280px;
+    }
+    main > .containerCards > .containerCard > .bgIcone > picture > img{
+        width: 30px;
+        height: 30px;
+    }
+    #departamentoPessoal-icone{
+        width: 27px;
+        height: 34px;             
+   }
+   main > .containerCards > .containerCard > .card{
+    width: 296px;
+    height: 349px;
+    }
+    main > .containerCards > .containerCard > .card > picture > img{
+        width: 290px;
+        height: 290px;
+        margin: 5px 0 14px 0;
+    }
+    main > .containerCards > .containerCard > .card > h2{
+        font-size: 19px;
+    }
+    main > .containerCards > .containerCard > h3{
+        width: 270px;
+        font-size: 18px;
+    }
+}
+@media (min-width: 279px) and (max-width: 319px){
+    main > .titulo > h1{
+        font-size: 18px;
+        margin: 5px;
+    }
+    main > .containerCards > .containerCard > .bgIcone{
+        width: 39px;
+        height: 39px;
+        margin: 0 0 -28px -240px;
+    }
+    main > .containerCards > .containerCard > .bgIcone > picture > img{
+        width: 27px;
+        height: 27px;
+    }
+    #departamentoPessoal-icone{
+        width: 24px;
+        height: 30px;             
+   }
+   main > .containerCards > .containerCard > .card{
+    width: 266px;
+    height: 314px;
+    }
+    main > .containerCards > .containerCard > .card > picture > img{
+        width: 261px;
+        height: 261px;
+        margin: 5px 0 12px 0;
+    }
+    main > .containerCards > .containerCard > .card > h2{
+        font-size: 16px;
+    }
+    main > .containerCards > .containerCard > h3{
+        width: 260px;
+        font-size: 17px;
+    }
+}
