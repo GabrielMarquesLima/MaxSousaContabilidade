@@ -1,0 +1,516 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > .containerTitulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -20px;
+}
+main > .containerTitulo > .titulo{
+    border-radius: 10px 10px 0 0;
+    background-color: #1C1B33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > .containerTitulo > .titulo > h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 20px;
+}
+main > .containerTitulo > .subtitulo{
+    background-color: #262450;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main > .containerTitulo > .subtitulo > h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 15px;
+}
+main > .container{
+    display: flex;
+    justify-content: space-around;
+    margin: 80px 0 100px 0;
+}
+main > .container > .parteEsquerda{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > .container > .parteEsquerda > .bgBanner > picture > img{
+    width: 640px;
+    height: 419px;
+    margin: 0 100px -10px 0;
+}
+main > .container > .parteEsquerda > .redes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 370px;
+    height: 625px;
+    background-color: #1C1B33;
+}
+main > .container > .parteEsquerda > .redes > a > .botao,
+main > .container > .parteEsquerda > .redes > .botao{
+    width: 260px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #FFFCEE;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+main > .container > .parteEsquerda > .redes > a > .botao:hover,
+main > .container > .parteEsquerda > .redes > .botao:hover,
+main > .container > .parteEsquerda > .redes > a > .botao:active,
+main > .container > .parteEsquerda > .redes > .botao:active{
+    transform: scale(1.05);
+    background-color: #e4e4da;
+}
+main > .container > .parteEsquerda > .redes > a > .botao > picture > img,
+main > .container > .parteEsquerda > .redes > .botao > picture > img{
+    width: 39px;
+    height: 39px;
+    margin: 0 15px 0 17px;
+}
+main > .container > .parteEsquerda > .redes > a > .botao > h2,
+main > .container > .parteEsquerda > .redes > .botao > h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+} 
+#blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.5s;
+}
+#blog:hover,
+#blog:active{
+    transform: scale(1.05);
+}
+#blog > .botao{
+    width: 260px;
+    height: 60px;
+    border-radius: 10px 10px 0 0;
+    background-color: #fffcee;
+    display: flex;
+    align-items: center;
+}
+#blog > .botao > picture > img{
+    width: 39px;
+    height: 39px;
+    margin: 0 15px 0 17px;
+}
+#blog > .botao > h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 500;
+}
+#blog > .sub{
+    width: 335px;
+    height: 48px;
+    border-radius: 6px;
+    background-color: #D1D0C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#blog > .sub > h3{
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 19.821px;
+    font-weight: 400;
+}
+main > .container > .parteEsquerda > .redes > h2{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 400;
+}
+main > .container > .parteEsquerda > .redes > .email > picture > img{
+    width: 39px;
+    width: 39px;
+    margin: 8px 0 12px 0;
+}
+main > .container > .parteEsquerda > .redes > .email{
+    width: 362px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: #fffcee;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+main > .container > .parteEsquerda > .redes > .email > h2{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+}
+main > .container > .parteDireita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main > .container > .parteDireita > .tituloLocal{
+    width: 340px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #1C1B33;
+   margin-bottom: 40px; 
+}
+main > .container > .parteDireita > .tituloLocal > picture > img{
+    width: 41px;
+    height: 41px;
+    margin: 0 10px 0 5px;
+}
+main > .container > .parteDireita > .tituloLocal > h2{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 500;
+}
+main > .container > .parteDireita > .maps{
+    width: 610px;
+    height: 510px;
+    background-color: #1C1B33;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+main > .container > .parteDireita > .maps > iframe{
+    border-radius: 10px;
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .container{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    main > .containerTitulo > .titulo > h1{
+        font-size: 26px;
+    }
+    main > .containerTitulo > .subtitulo > h2{
+        font-size: 22px;
+    }
+    .container{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    main > .containerTitulo > .titulo > h1{
+        font-size: 26px;
+    }
+    main > .containerTitulo > .subtitulo > h2{
+        font-size: 22px;
+        width: 600px;
+    }
+    .container{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px){
+    main > .containerTitulo > .titulo > h1{
+        font-size: 26px;
+    }
+    main > .containerTitulo > .subtitulo{
+        border-radius: 5px;
+    }
+    main > .containerTitulo > .subtitulo > h2{
+        font-size: 22px;
+        width: 100vw;
+        margin: 5px 0 5px 0;
+    }
+    .container{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    main > .container > .parteEsquerda > .bgBanner{
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    main > .container > .parteEsquerda > .bgBanner > picture > img{
+        margin: 0 -100 -10px 0;
+    }
+    main > .container > .parteDireita > .maps{
+        width: 510px;
+        height: 510px;
+        border-radius: 10px;
+    }
+    main > .container > .parteDireita > .maps > iframe{
+        width: 500px;
+        height: 500px;
+        border-radius: 10px;
+    }
+}
+@media (min-width: 400px) and (max-width: 575px){
+    main > .containerTitulo > .titulo > h1{
+        font-size: 24px;
+    }
+    main > .containerTitulo > .subtitulo{
+        border-radius: 5px;
+    }
+    main > .containerTitulo > .subtitulo > h2{
+        font-size: 18px;
+        width: 100vw;
+        margin: 5px 0 5px 0;
+    }
+    .container{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    main > .container > .parteEsquerda > .bgBanner{
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    main > .container > .parteEsquerda > .bgBanner > picture > img{
+        width: 576px;
+        height: 377px;
+        margin: 0 -100 -10px 0;
+    }
+    main > .container > .parteDireita > .tituloLocal{
+        width: 300px;
+        height: 60px;
+    }
+    main > .container > .parteDireita > .tituloLocal > picture > img{
+        width: 41px;
+        height: 41px;
+        margin: 0 10px 0 5px;
+    }
+    main > .container > .parteDireita > .tituloLocal > h2{
+        font-size: 26px;
+    }
+    main > .container > .parteDireita > .maps{
+        width: 380px;
+        height: 430px;
+        border-radius: 10px;
+    }
+    main > .container > .parteDireita > .maps > iframe{
+        width: 370px;
+        height: 420px;
+        border-radius: 10px;
+    }
+}
+@media (min-width: 320px) and (max-width: 399px){
+    main > .containerTitulo > .titulo > h1{
+        font-size: 24px;
+    }
+    main > .containerTitulo > .subtitulo{
+        border-radius: 5px;
+    }
+    main > .containerTitulo > .subtitulo > h2{
+        font-size: 16px;
+        width: 100vw;
+        margin: 5px 0 5px 0;
+    }
+    .container{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    main > .container > .parteEsquerda > .bgBanner{
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    main > .container > .parteEsquerda > .bgBanner > picture > img{
+        width: 507px;
+        height: 331px;
+        margin: 0 -100 -10px 0;
+    }
+    main > .container > .parteEsquerda > .redes{
+        width: 100vw;
+        height: 625px;
+    }
+    main > .container > .parteEsquerda > .redes > a > .botao,
+    main > .container > .parteEsquerda > .redes > .botao{
+        width: 240px;
+        height: 50px;
+        border-radius: 8px;
+    }
+    #blog > .botao{
+        width: 240px;
+        height: 50px;
+        border-radius: 8px 8px 0 0;
+    }
+    main > .container > .parteEsquerda > .redes > a > .botao > h2,
+    main > .container > .parteEsquerda > .redes > .botao > h2{
+        font-size: 23px;
+    } 
+    #blog > .botao > h2{
+        font-size: 23px;
+    }
+    #blog > .sub{
+        width: 275px;
+        height: 48px;
+        border-radius: 6px;
+    }
+    #blog > .sub > h3{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    main > .container > .parteEsquerda > .redes > h2{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    main > .container > .parteEsquerda > .redes > .email > picture > img{
+        width: 31px;
+        width: 31px;
+        margin: 8px 0 12px 0;
+    }
+    main > .container > .parteEsquerda > .redes > .email{
+        width: 275px;
+        height: 80px;
+        border-radius: 8px;
+    }
+    main > .container > .parteEsquerda > .redes > .email > h2{
+        font-size: 12px;
+    }
+    main > .container > .parteDireita > .tituloLocal{
+        width: 270px;
+        height: 50px;
+    }
+    main > .container > .parteDireita > .tituloLocal > picture > img{
+        width: 33px;
+        height: 33px;
+        margin: 0 7px 0 5px;
+    }
+    main > .container > .parteDireita > .tituloLocal > h2{
+        font-size: 22px;
+    }
+    main > .container > .parteDireita > .maps{
+        width: 280px;
+        height: 380px;
+        border-radius: 8px;
+    }
+    main > .container > .parteDireita > .maps > iframe{
+        width: 270px;
+        height: 370px;
+        border-radius: 8px;
+    }
+}
+@media (min-width: 279px) and (max-width: 319px){
+    main > .containerTitulo > .titulo > h1{
+        font-size: 22px;
+    }
+    main > .containerTitulo > .subtitulo{
+        border-radius: 5px;
+    }
+    main > .containerTitulo > .subtitulo > h2{
+        font-size: 14px;
+        width: 100vw;
+        margin: 5px 0 5px 0;
+    }
+    .container{
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    main > .container > .parteEsquerda > .bgBanner{
+        width: 100vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+    }
+    main > .container > .parteEsquerda > .bgBanner > picture > img{
+        width: 507px;
+        height: 331px;
+        margin: 0 -100 -10px 0;
+    }
+    main > .container > .parteEsquerda > .redes{
+        width: 100vw;
+        height: 625px;
+    }
+    main > .container > .parteEsquerda > .redes > a > .botao,
+    main > .container > .parteEsquerda > .redes > .botao{
+        width: 240px;
+        height: 50px;
+        border-radius: 8px;
+    }
+    #blog > .botao{
+        width: 240px;
+        height: 50px;
+        border-radius: 8px 8px 0 0;
+    }
+    main > .container > .parteEsquerda > .redes > a > .botao > h2,
+    main > .container > .parteEsquerda > .redes > .botao > h2{
+        font-size: 23px;
+    } 
+    #blog > .botao > h2{
+        font-size: 23px;
+    }
+    #blog > .sub{
+        width: 275px;
+        height: 48px;
+        border-radius: 6px;
+    }
+    #blog > .sub > h3{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    main > .container > .parteEsquerda > .redes > h2{
+        font-size: 22px;
+        font-weight: 500;
+    }
+    main > .container > .parteEsquerda > .redes > .email > picture > img{
+        width: 31px;
+        width: 31px;
+        margin: 8px 0 12px 0;
+    }
+    main > .container > .parteEsquerda > .redes > .email{
+        width: 275px;
+        height: 80px;
+        border-radius: 8px;
+    }
+    main > .container > .parteEsquerda > .redes > .email > h2{
+        font-size: 12px;
+    }
+    main > .container > .parteDireita > .tituloLocal{
+        width: 270px;
+        height: 50px;
+    }
+    main > .container > .parteDireita > .tituloLocal > picture > img{
+        width: 33px;
+        height: 33px;
+        margin: 0 7px 0 5px;
+    }
+    main > .container > .parteDireita > .tituloLocal > h2{
+        font-size: 22px;
+    }
+    main > .container > .parteDireita > .maps{
+        width: 280px;
+        height: 380px;
+        border-radius: 8px;
+    }
+    main > .container > .parteDireita > .maps > iframe{
+        width: 270px;
+        height: 370px;
+        border-radius: 8px;
+    }
+}
