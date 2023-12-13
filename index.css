@@ -104,18 +104,18 @@ main > .containerResponsaveis > .card > .nome > h2{
     letter-spacing: 1.8px;
     padding: 10px;
 }
-main > .containerDuvidas{
+main > a > .containerDuvidas{
     margin: 40px 0 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: 0.5s;
 }
-main > .containerDuvidas:hover,
-main > .containerDuvidas:active{
+main > a > .containerDuvidas:hover,
+main > a > .containerDuvidas:active{
     transform: scale(1.05);
 }
-main > .containerDuvidas > .duvidas{
+main > a > .containerDuvidas > .duvidas{
     width: 160px;
     height: 55px;
     border-radius: 10px 10px 0 0;
@@ -125,18 +125,18 @@ main > .containerDuvidas > .duvidas{
     background-color: #1C1B33;
     transition: 0.5s;
 }
-main > .containerDuvidas > .duvidas:hover,
-main > .containerDuvidas > .duvidas:active{
+main > a > .containerDuvidas > .duvidas:hover,
+main > a > .containerDuvidas > .duvidas:active{
     background-color: #b18352;
 }
-main > .containerDuvidas > .duvidas > h2{
+main > a > .containerDuvidas > .duvidas > h2{
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
     font-size: 28px;
     font-weight: 400;
 }
-main > .containerDuvidas > .subtitulo{
+main > a > .containerDuvidas > .subtitulo{
     width: 200px;
     height: 40px;
     border-radius: 10px;
@@ -145,7 +145,7 @@ main > .containerDuvidas > .subtitulo{
     justify-content: center;
     background-color: #262450;
 }
-main > .containerDuvidas > .subtitulo > h3{
+main > a > .containerDuvidas > .subtitulo > h3{
     color: #FFF;
     font-family: Montserrat;
     font-size: 26px;
@@ -187,7 +187,7 @@ main > .containerDuvidas > .subtitulo > h3{
         width: 351px;
         height: 251px;
     }
-    main > .containerDuvidas > .subtitulo > h3{
+    main > a > .containerDuvidas > .subtitulo > h3{
         font-size: 22px;
     }
 }
@@ -220,20 +220,20 @@ main > .containerDuvidas > .subtitulo > h3{
     main > .containerResponsaveis > .card > .nome > h2{
         font-size: 18px;
     }
-    main > .containerDuvidas > .duvidas{
+    main > a > .containerDuvidas > .duvidas{
         width: 132px;
         height: 40px;
         border-radius: 6px 6px 0 0;
     }
-    main > .containerDuvidas > .duvidas > h2{
+    main > a > .containerDuvidas > .duvidas > h2{
         font-size: 24px;
     }
-    main > .containerDuvidas > .subtitulo{
+    main > a > .containerDuvidas > .subtitulo{
         width: 167px;
         height: 32px;
         border-radius: 6px;
     }
-    main > .containerDuvidas > .subtitulo > h3{
+    main > a > .containerDuvidas > .subtitulo > h3{
         font-size: 22px;
     }
 }
@@ -266,20 +266,20 @@ main > .containerDuvidas > .subtitulo > h3{
     main > .containerResponsaveis > .card > .nome > h2{
         font-size: 18px;
     }
-    main > .containerDuvidas > .duvidas{
+    main > a > .containerDuvidas > .duvidas{
         width: 132px;
         height: 40px;
         border-radius: 6px 6px 0 0;
     }
-    main > .containerDuvidas > .duvidas > h2{
+    main > a > .containerDuvidas > .duvidas > h2{
         font-size: 24px;
     }
-    main > .containerDuvidas > .subtitulo{
+    main > a > .containerDuvidas > .subtitulo{
         width: 167px;
         height: 32px;
         border-radius: 6px;
     }
-    main > .containerDuvidas > .subtitulo > h3{
+    main > a > .containerDuvidas > .subtitulo > h3{
         font-size: 22px;
     }
 }
