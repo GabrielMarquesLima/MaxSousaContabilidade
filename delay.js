@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             var target = link.getAttribute('target'); // Obtém o atributo target
 
-            var delayTime = 220; // Tempo de atraso em milissegundos (2 segundos neste exemplo)
+            var delayTime = 205; // Tempo de atraso em milissegundos (2 segundos neste exemplo)
 
             setTimeout(function () {
                 if (target === '_blank') {

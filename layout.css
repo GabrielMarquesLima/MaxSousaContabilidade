@@ -39,11 +39,11 @@ header > .containerHeader > .bgNav > nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: 0.5s;
+    transition: 0.2s ease;
 }
 #bgLogo-header:hover,
 #bgLogo-header:active{
-    transform: scale(1.05);
+    transform: scale(1.08);
     background-color: #CA9762;
 }
 #bgLogo-header > a > picture > img{
@@ -63,7 +63,7 @@ header > .containerHeader > .bgNav > nav > .opcoes > a > div{
     display: flex;
     align-items: center;
     column-gap: 10px;
-    transition: 0.2s;
+    transition: 0.2s ease;
 }
 header > .containerHeader > .bgNav > nav > .opcoes > a > div:hover,
 header > .containerHeader > .bgNav > .opcoes > a > div:active{
