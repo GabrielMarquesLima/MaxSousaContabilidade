@@ -70,13 +70,13 @@ main > .container > .parteEsquerda > .redes > .botao{
     background-color: #FFFCEE;
     display: flex;
     align-items: center;
-    transition: 0.2s ease;
+    transition: 0.25s ease;
 }
 main > .container > .parteEsquerda > .redes > a > .botao:hover,
 main > .container > .parteEsquerda > .redes > .botao:hover,
 main > .container > .parteEsquerda > .redes > a > .botao:active,
 main > .container > .parteEsquerda > .redes > .botao:active{
-    transform: scale(1.08);
+    transform: scale(1.07);
     background-color: #e4e4da;
 }
 main > .container > .parteEsquerda > .redes > a > .botao > picture > img,
@@ -96,11 +96,11 @@ main > .container > .parteEsquerda > .redes > .botao > h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: 0.2s ease;
+    transition: 0.25s ease;
 }
 #blog:hover,
 #blog:active{
-    transform: scale(1.08);
+    transform: scale(1.07);
 }
 #blog > .botao{
     width: 260px;

@@ -63,11 +63,11 @@ header > .containerHeader > .bgNav > nav > .opcoes > a > div{
     display: flex;
     align-items: center;
     column-gap: 10px;
-    transition: 0.2s ease;
+    transition: 0.25s ease;
 }
 header > .containerHeader > .bgNav > nav > .opcoes > a > div:hover,
 header > .containerHeader > .bgNav > .opcoes > a > div:active{
-    transform: scale(1.1);
+    transform: scale(1.07);
 }
 header > .containerHeader > .bgNav > nav > .opcoes > a > div > picture > img{
     width: 35px;
